@@ -27,9 +27,14 @@ __项目结构__
 ```bash
 git clone https://github.com/liyunhan177/SWABox.git
 ```
-### 2. 安装所欲依赖（暂无）
+### 2. 安装所欲依赖
 ```bash
-pip install 
+    # PySide6 GUI库
+    pip install PySide6 -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
+    # 设计工具
+    pip install pyqt5-tools -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 ### 3. 运行项目（暂未完工）
 ```bash
