@@ -28,8 +28,6 @@ SWABox - 电教委工具箱
 
 ```aiignore
 SWABox/
-├── src/                      # 源代码目录
-│   └── main.py              # 主程序入口
 ├── lib/                      # 功能模块库
 │   ├── page/                # 页面模块
 │   └── package/             # 功能包
@@ -40,8 +38,11 @@ SWABox/
 ├── data/                     # 数据文件
 ├── log/                      # 日志文件
 ├── doc/                      # 文档目录
-├── Tools/                    # 工具目录
+├── Static/                    # 静态文件
 ├── pyproject.toml           # 项目配置文件
+├── LICENSE                  # 许可协议
+├── main.py                  # 主程序入口
+├── .gitignore               # Git 忽略文件配置
 └── README.md                # 项目说明文档
 ```
 
